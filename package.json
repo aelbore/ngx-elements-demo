@@ -1,0 +1,39 @@
+{
+  "name": "ngx-elements-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ngc": "ngc -p tsconfig.json",
+    "build": "ts-node --project tools/tsconfig.json tools/build.ts",
+    "start": "ts-node --project tools/tsconfig.json tools/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aelbore/ngx-elements-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aelbore/ngx-elements-demo/issues"
+  },
+  "homepage": "https://github.com/aelbore/ngx-elements-demo#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^12.6.6",
+    "aria-build": "0.0.7",
+    "express": "^4.17.1",
+    "rollup-plugin-filesize": "^6.1.1",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@angular-devkit/build-optimizer": "0.801.1",
+    "@angular/common": "8.1.1",
+    "@angular/compiler": "8.1.1",
+    "@angular/compiler-cli": "8.1.1",
+    "@angular/core": "8.1.1",
+    "rxjs": "6.5.2"
+  }
+}
