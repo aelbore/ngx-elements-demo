@@ -1,9 +1,11 @@
-import { Component, Input, ɵrenderComponent } from '@angular/core'
+import { Component, Input, ViewEncapsulation } from '@angular/core'
+import { renderCustomElement } from 'ngx-elements'
 
 @Component({
   selector: 'hello-world',
   templateUrl: './app.html',
-  styleUrls: [ './app.css' ]
+  styleUrls: [ './app.css' ],
+  encapsulation: ViewEncapsulation.ShadowDom
 })
 export class HelloWorldComponent {
   
@@ -11,4 +13,4 @@ export class HelloWorldComponent {
 
 }
 
-ɵrenderComponent(HelloWorldComponent)
+renderCustomElement(HelloWorldComponent)

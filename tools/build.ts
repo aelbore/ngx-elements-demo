@@ -37,7 +37,8 @@ import buildOptimizer from '@angular-devkit/build-optimizer/src/build-optimizer/
     ],
     output: {
       file: './dist/app.js',
-      format: 'es',
+      format: 'iife',
+      name: 'app',
       sourcemap: true
     }
   }

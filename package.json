@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "ngc": "ngc -p tsconfig.json",
-    "build": "ts-node --project tools/tsconfig.json tools/build.ts",
+    "build": "npm run ngc && ts-node --project tools/tsconfig.json tools/build.ts",
     "start": "ts-node --project tools/tsconfig.json tools/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -34,6 +34,7 @@
     "@angular/compiler": "8.1.1",
     "@angular/compiler-cli": "8.1.1",
     "@angular/core": "8.1.1",
+    "ngx-elements": "0.0.1",
     "rxjs": "6.5.2"
   }
 }
