@@ -1,4 +1,5 @@
 import { Component, Input, ViewEncapsulation } from '@angular/core'
+import { NgIf } from '@angular/common'
 import { renderCustomElement } from 'ngx-elements'
 
 @Component({
@@ -9,7 +10,7 @@ import { renderCustomElement } from 'ngx-elements'
 })
 export class HelloWorldComponent {
   
-  @Input() name: string;
+  @Input() name: string
 
 }
 
