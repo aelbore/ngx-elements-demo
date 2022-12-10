@@ -28,7 +28,7 @@
     "aria-fs": "0.1.0",
     "aria-mocha": "0.1.0",
     "aria-mocha-headless": "0.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "rollup-plugin-filesize": "^6.2.1",
     "tslib": "^1.10.0",
     "typescript": "^3.7.4"
